@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CurrConverter</title>
+  <link rel="stylesheet" type="text/css " href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CurrConverter</a>
+  </nav>
+
+    <div class="container">
+    <h1>A Simple Currency Converter</h1>
+    <h5>A Crypto Currency Converter</h3>
+      <p>Instant Data from bitcoinaverage.com</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <form action="/" method="post">
+
+        <div class="input-group col-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Amount</span>
+          </div>
+          <input type="text" class="form-control" name="amount" placeholder="1.73" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3 col-sm">
+          <div class="input-group-prepend">
+            <button class=" input-group-text" type="button">From:</button>
+          </div>
+          <select class="custom-select" name="crypto" id="inputGroupSelect03">
+            <option value="BTC">Bitcoins</option>
+            <option value="ETH">Ethereum</option>
+            <option value="LTC">Litecoins</option>
+          </select>
+        </div>
+
+        <div class="input-group mb-3 col-sm">
+          <div class="input-group-prepend">
+            <button class=" input-group-text" type="button">To:</button>
+          </div>
+          <select class="custom-select" name="fiat" id="inputGroupSelect03">
+            <option value="CHF">Swiss Franc</option>
+            <option value="USD">US Dollar</option>
+            <option value="EUR">Euro</option>
+          </select>
+        </div>
+
+<div class="col-sm">
+  <button type="submit" name="button" class="btn btn-dark">Check</button>
+</div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+.gitignore.txt
+
+Anleitung starten CurrConverter
